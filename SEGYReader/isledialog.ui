@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>IsLEDialog</class>
+ <widget class="QDialog" name="IsLEDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>589</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0">
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="verticalScrollMode">
+        <enum>QAbstractItemView::ScrollPerPixel</enum>
+       </property>
+       <property name="horizontalScrollMode">
+        <enum>QAbstractItemView::ScrollPerPixel</enum>
+       </property>
+       <row>
+        <property name="text">
+         <string>C 1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C 2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C 3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C 4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C 5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C 6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C 7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C 8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C 9</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C10</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C11</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C12</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C13</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C14</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C15</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C16</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C17</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C18</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C19</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C20</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C21</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C22</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C23</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C24</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C25</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C26</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C27</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C28</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C29</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C30</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C31</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C32</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C33</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C34</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C35</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C36</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C37</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C38</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C39</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>C40</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Text</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="2">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Please choose whether this file is Big Endian or Little Endian.
+In case you do not understand what this means, just click okay.</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" colspan="2">
+      <widget class="QDialogButtonBox" name="buttonBox">
+       <property name="standardButtons">
+        <set>QDialogButtonBox::Cancel|QDialogButtonBox::Open</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>Data Format Storage Type</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QRadioButton" name="radioBE">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="text">
+           <string>Big Endian</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioLE">
+          <property name="text">
+           <string>Little Endian</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

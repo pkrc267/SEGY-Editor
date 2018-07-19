@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SegyFileForm</class>
+ <widget class="QWidget" name="SegyFileForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item>
+      <widget class="QPushButton" name="convertButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Convert To Big Endian</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>undo</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="lineWidth">
+      <number>3</number>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="openFileLabel">
+     <property name="text">
+      <string>Open File: </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QTabWidget" name="globalHeaderTabWidget">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="textHeaderTab">
+        <attribute name="title">
+         <string>Text Header</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QScrollArea" name="scrollArea">
+           <property name="widgetResizable">
+            <bool>true</bool>
+           </property>
+           <widget class="QWidget" name="scrollAreaWidgetContents">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>309</width>
+              <height>500</height>
+             </rect>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <item>
+              <widget class="QTableWidget" name="textHeaderTable">
+               <property name="horizontalScrollBarPolicy">
+                <enum>Qt::ScrollBarAsNeeded</enum>
+               </property>
+               <property name="horizontalScrollMode">
+                <enum>QAbstractItemView::ScrollPerPixel</enum>
+               </property>
+               <attribute name="horizontalHeaderVisible">
+                <bool>false</bool>
+               </attribute>
+               <row>
+                <property name="text">
+                 <string>C 1</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C 2</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C 3</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C 4</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C 5</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C 6</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C 7</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C 8</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C 9</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C10</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C11</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C12</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C13</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C14</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C15</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C16</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C17</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C18</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C19</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C20</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C21</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C22</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C23</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C24</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C25</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C26</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C27</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C28</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C29</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C30</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C31</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C32</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C33</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C34</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C35</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C36</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C37</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C38</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C39</string>
+                </property>
+               </row>
+               <row>
+                <property name="text">
+                 <string>C40</string>
+                </property>
+               </row>
+               <column>
+                <property name="text">
+                 <string>Text</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="binaryHeaderTab">
+        <attribute name="title">
+         <string>Binary Headers</string>
+        </attribute>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QTableWidget" name="binaryHeaderTable">
+           <column>
+            <property name="text">
+             <string>Bytes</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Header</string>
+            </property>
+           </column>
+           <column>
+            <property name="text">
+             <string>Value</string>
+            </property>
+           </column>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="extendedHeaderTab">
+        <attribute name="title">
+         <string>Extended Headers</string>
+        </attribute>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="traceNumberLabel">
+         <property name="text">
+          <string>Select Trace #</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="traceList">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="traceLabel">
+         <property name="frameShape">
+          <enum>QFrame::Panel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>7</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="text">
+          <string>Trace # : </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTabWidget" name="traceTabWidget">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="binaryHeaders">
+          <attribute name="title">
+           <string>Trace Header</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <item>
+            <widget class="QTableWidget" name="traceBinaryHeaderTable">
+             <column>
+              <property name="text">
+               <string>Bytes</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Header</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Value</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="traceData">
+          <attribute name="title">
+           <string>Trace Data</string>
+          </attribute>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QTableWidget" name="traceDataTable">
+             <column>
+              <property name="text">
+               <string>Interval</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>Value</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
